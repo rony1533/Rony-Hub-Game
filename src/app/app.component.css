@@ -1,0 +1,105 @@
+.c-white {
+  color: white;
+}
+
+.main {
+  width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.Card {
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  border-radius: 16px;
+
+  background-color: #627892;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.card-game {
+  width: 100%;
+  height: 300px;
+  margin-top: 80px;
+  border-radius: 16px;
+
+  background: linear-gradient(180deg, #627892 0%, rgba(49, 72, 88, 0.19) 100%);
+  box-shadow: 0px 4px 10px 2px rgba(162, 211, 247, 0.25);
+  transition: 0.15s;
+}
+
+.card-game:hover {
+  box-shadow: 0px 6px 12px 2px rgba(143, 203, 245, 0.384);
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+}
+
+.inlineAround {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.displayBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 32px;
+  margin-bottom: 23px;
+  margin-top: 67px;
+}
+
+.perfil {
+  width: 300px;
+}
+
+.btn-Link {
+  padding: 16px;
+  border-radius: 16px;
+
+  background-color: #212129;
+  border: 1px solid #808080;
+  color: white;
+  transition: 0.15s linear;
+}
+
+.btn-Link:hover {
+  background-color: #808080;
+  border: 1px solid #212129;
+  transform: scale(0.9, 0.9);
+  box-shadow: 0px 0px 10px 1px #312d2d;
+  cursor: pointer;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+}
+
+.txtBold {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.flex {
+  display: flex;
+}
+
+.hrLine {
+  width: 100%;
+  height: 0px;
+}
+
+.m-l-r-35 {
+  margin-left: 35px;
+  margin-right: 35px;
+}
